@@ -4,7 +4,8 @@ import PokemonForm from "./PokemonForm";
 import Search from "./Search";
 import { Container } from "semantic-ui-react";
 
-function PokemonPage() {
+function PokemonPage({pokemon}) {
+  const allPokemon = pokemon.map((pokemon) => <PokemonCollection key={pokemon.id} pokemon={pokemon}/>)
   return (
     <Container>
       <h1>Pokemon Searcher</h1>
@@ -13,7 +14,7 @@ function PokemonPage() {
       <br />
       <Search />
       <br />
-      <PokemonCollection />
+      {allPokemon}
     </Container>
   );
 }
