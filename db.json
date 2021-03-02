@@ -1340,6 +1340,15 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "pikachu",
+      "hp": "90",
+      "sprites": {
+        "front": "https://compote.slate.com/images/18ba92e4-e39b-44a3-af3b-88f735703fa7.png?width=780&height=520&rect=1560x1040&offset=0x0",
+        "back": "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-09-22-14-20/-1600780835472.jpg/EG11/thumbnail/750x422/format/jpg/quality/60"
+      },
+      "id": 151
     }
   ]
 }

@@ -12,9 +12,12 @@ function App() {
       });
   }, []);
 
+  function newPokemon(newPokemon) {
+    setPokemon([...pokemon, newPokemon])
+  }
   return (
     <div className="App">
-      <PokemonPage pokemon={pokemon}/>
+      <PokemonPage pokemon={pokemon} newPokemon={newPokemon}/>
     </div>
   );
 }
